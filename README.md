@@ -15,8 +15,7 @@ Open the following file <credit_risk_classification.ipynb>
 
 2. This data was split into training and testing data after:
  - label set y based on 'loan status' column. 
-### 0' healthy label, '1' high risk of defaulting.
-
+ - `0` healthy label, `1` high risk of defaulting.
  - features X DataFrame based on all other columns.
 
 3. A Logistic Regression Model was run on the training data and predictions made using the test data. The models performance at identifying borrowers at risk of defaulting was evaluated based on:
